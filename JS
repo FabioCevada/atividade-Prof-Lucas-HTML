@@ -1,0 +1,9 @@
+function alterarCorPrimeiroLugar() {
+    const primeiroLugar = document.querySelector('.primeiro-lugar');
+    primeiroLugar.classList.toggle('linha-modificada');
+}
+
+function alterarCorSegundoLugar() {
+    const segundoLugar = document.querySelector('.segundo-lugar');
+    segundoLugar.classList.toggle('linha-modificada');
+}
