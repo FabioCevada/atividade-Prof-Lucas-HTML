@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade HTML</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+
+<body>
+
+    <!-- Títulos de h1 a h6 -->
+    <h1>Título 1 - Maior</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6 - Menor</h6>
+
+    <!-- Linha horizontal -->
+    <hr>
+
+    <!-- Parágrafos -->
+    <p>Teste paragrafo1.</p>
+    <p>Teste paragrafo2.</p>
+
+    <!-- Lista ordenada com os jogos do Palmeiras com links -->
+    <h3>Jogos do Palmeiras</h3>
+    <ol>
+        <li><a href="https://www.palmeiras.com.br" target="_blank">Palmeiras x Flamengo - 20/02/2025</a></li>
+        <li><a href="https://www.palmeiras.com.br" target="_blank">Palmeiras x Corinthians - 25/02/2025</a></li>
+        <li><a href="https://www.palmeiras.com.br" target="_blank">Palmeiras x São Paulo - 01/03/2025</a></li>
+        <li><a href="https://www.palmeiras.com.br" target="_blank">Palmeiras x Santos - 05/03/2025</a></li>
+        <li><a href="https://www.palmeiras.com.br" target="_blank">Palmeiras x Atlético-MG - 10/03/2025</a></li>
+    </ol>
+
+    <h3>Classificação do Campeonato Brasileiro de 2024</h3>
+
+    <!-- Botões para alterar as cores das linhas -->
+    <button onclick="alterarCorPrimeiroLugar()">Alterar cor do 1º lugar</button>
+    <button onclick="alterarCorSegundoLugar()">Alterar cor do 2º lugar</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Imagem</th>
+                <th>Posição</th>
+                <th>Time</th>
+                <th>Pontos</th>
+                <th>Jogos</th>
+                <th>Vitórias</th>
+                <th>Derrotas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Linha para o segundo lugar -->
+            <tr class="primeiro-lugar">
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.png" alt="Flamengo" width="50"></td>
+                <td>1</td>
+                <td><a href="https://www.flamengo.com.br" target="_blank">Flamengo</a></td>
+                <td>78</td>
+                <td>38</td>
+                <td>23</td>
+                <td>5</td>
+            </tr>
+            
+            <tr class="segundo-lugar">
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Palmeiras_logo.svg" alt="Palmeiras" width="50"></td>
+                <td>2</td>
+                <td><a href="https://www.palmeiras.com.br" target="_blank">Palmeiras</a></td>
+                <td>74</td>
+                <td>38</td>
+                <td>22</td>
+                <td>6</td>
+            </tr>
+            
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/S%C3%A3o_Paulo_FC_logo.svg" alt="São Paulo" width="50"></td>
+                <td>3</td>
+                <td><a href="https://www.saopaulofc.net" target="_blank">São Paulo</a></td>
+                <td>72</td>
+                <td>38</td>
+                <td>21</td>
+                <td>7</td>
+            </tr>
+            
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Atl%C3%A9tico_Mineiro_logo.svg" alt="Atlético-MG" width="50"></td>
+                <td>4</td>
+                <td><a href="https://atletico.com.br" target="_blank">Atlético-MG</a></td>
+                <td>70</td>
+                <td>38</td>
+                <td>20</td>
+                <td>8</td>
+            </tr>
+            
+            <tr class="quinto-lugar">
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Gr%C3%AAmio_logo.svg" alt="Grêmio" width="50"></td>
+                <td>5</td>
+                <td><a href="https://www.gremio.net" target="_blank">Grêmio</a></td>
+                <td>68</td>
+                <td>38</td>
+                <td>19</td>
+                <td>9</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
