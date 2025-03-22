@@ -1,0 +1,34 @@
+/* Estilo para destacar a linha do primeiro lugar */
+.primeiro-lugar {
+    background-color: #ff00f2; /* Cor dourada para destacar o primeiro lugar */
+}
+
+/* Estilo para destacar o quinto lugar em laranja */
+.quinto-lugar {
+    background-color: #e79600; /* Cor laranja para o quinto lugar */
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+img {
+    width: 30px; /* Tamanho da imagem */
+}
+
+/* Estilo para as linhas alteradas */
+.linha-modificada {
+ background-color: rgb(41, 44, 235); /* Cor de fundo quando a linha é alterada */
+}
